@@ -20,12 +20,6 @@ jobs:
           node-version: '20'
           registry-url: 'https://registry.npmjs.org/'
 
-      - name: Install dependencies
-        run: yarn install
-
-      - name: Build the project
-        run: yarn build
-
       - name: Authenticate with GitHub
         uses: shimataro/ssh-key-action@v2
         with:
