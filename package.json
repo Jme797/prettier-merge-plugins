@@ -1,0 +1,22 @@
+{
+  "name": "merge-prettier-plugins",
+  "version": "1.0.0",
+  "description": "A short-term patch for merging Prettier plugins to address issue #12807.",
+  "main": "src/index.js",
+  "keywords": [
+    "prettier",
+    "plugin",
+    "merge",
+    "patch"
+  ],
+  "author": "Jordan Edelston",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jme797/prettier-merge-plugins"
+  },
+  "bugs": {
+    "url": "https://github.com/prettier/prettier/issues/12807"
+  },
+  "homepage": "https://github.com/Jme797/prettier-merge-plugins#readme"
+}
