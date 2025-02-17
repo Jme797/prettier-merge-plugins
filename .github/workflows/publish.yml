@@ -38,7 +38,7 @@ jobs:
       - name: Push version bump
         run: |
           git remote set-url origin git@github.com:${{ github.repository }}.git
-          git push origin HEAD:main
+          git push origin HEAD:master
 
       - name: Publish to npm
         run: npm publish
