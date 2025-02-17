@@ -1,6 +1,6 @@
 {
   "name": "merge-prettier-plugins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A short-term patch for merging Prettier plugins to address issue #12807.",
   "main": "src/index.js",
   "keywords": [
