@@ -1,6 +1,6 @@
-# My NPM Package
+# merge-prettier-plugins
 
-This is a simple npm package that serves as a template for creating new JavaScript packages.
+Temporary work around for https://github.com/prettier/prettier/issues/12807
 
 ## Installation
 
@@ -15,16 +15,15 @@ npm install my-npm-package
 After installing, you can use the package in your project:
 
 ```javascript
-const myPackage = require('my-npm-package');
+const mergePluginConfigs = require('merge-prettier-plugins');
 
-myPackage(); // This will log a message to the console.
+const plugin1 = require('plugin-one');
+const plugin2 = require('plugin-two');
+
+const config = mergePluginConfigs(plugin1, plugin2, /* .... */);
+
+
 ```
-
-## API
-
-### `myPackage()`
-
-This is a simple function that logs a message to the console. You can customize it to perform any operation you need.
 
 ## License
 

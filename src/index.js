@@ -44,3 +44,5 @@ const mergePluginConfigs = (...plugins) => {
   return mergedConfig;
 };
 
+module.exports = mergePluginConfigs;
+
