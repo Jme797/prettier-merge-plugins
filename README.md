@@ -7,7 +7,10 @@ Temporary work around for https://github.com/prettier/prettier/issues/12807
 To install this package, use npm:
 
 ```
-npm install my-npm-package
+npm install merge-prettier-plugins
+```
+```
+yarn add merge-prettier-plugins --dev
 ```
 
 ## Usage
